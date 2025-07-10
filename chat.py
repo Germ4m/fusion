@@ -9,6 +9,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 
 nltk.download('punkt')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 lemmatizador = WordNetLemmatizer()
 
 with open('datos.json', encoding='utf-8') as archivo:
